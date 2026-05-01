@@ -46,7 +46,7 @@ export function createPage(title, body) {
     <main>
         ${body}
     </main>
-    <footer>GameVault &copy; 2025 — Aplicaciones Híbridas</footer>
+    <footer>GameVault &copy; 2026 — Luciano Akil — Aplicaciones Híbridas</footer>
 </body>
 </html>`
 }
