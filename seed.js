@@ -9,18 +9,18 @@ const db = client.db("AH20232CP1")
 const games = [
     {
         name: "Dark Souls III",
-        description: "Un RPG de acción brutal y desafiante ambientado en un mundo en llamas. Explora mazmorras oscuras y enfrentá jefes épicos.",
+        description: "Un RPG de acción brutal y desafiante ambientado en un mundo en llamas. Explorá mazmorras oscuras y enfrentá jefes épicos.",
         link: "https://store.steampowered.com/app/374320/DARK_SOULS_III/",
-        img: "https://picsum.photos/seed/darksouls/400/225",
+        img: "https://cdn.cloudflare.steamstatic.com/steam/apps/374320/header.jpg",
         platforms: ["PC", "PS4", "Xbox One"],
         developer: "FromSoftware",
         section: "rpg"
     },
     {
         name: "Doom Eternal",
-        description: "La secuela del aclamado DOOM (2016). Combate frenético contra hordas demoníacas en una experiencia de acción sin igual.",
+        description: "La secuela del aclamado DOOM 2016. Combate frenético contra hordas demoníacas en una experiencia de acción sin igual.",
         link: "https://store.steampowered.com/app/782330/DOOM_Eternal/",
-        img: "https://picsum.photos/seed/doom/400/225",
+        img: "https://cdn.cloudflare.steamstatic.com/steam/apps/782330/header.jpg",
         platforms: ["PC", "PS4", "PS5", "Xbox"],
         developer: "id Software",
         section: "action"
@@ -29,16 +29,16 @@ const games = [
         name: "Civilization VI",
         description: "Construí una civilización que resista el paso del tiempo. Estrategia por turnos con cientos de horas de rejugabilidad.",
         link: "https://store.steampowered.com/app/289070/Sid_Meiers_Civilization_VI/",
-        img: "https://picsum.photos/seed/civ6/400/225",
+        img: "https://cdn.cloudflare.steamstatic.com/steam/apps/289070/header.jpg",
         platforms: ["PC", "iOS", "Android", "Switch"],
         developer: "Firaxis Games",
         section: "strategy"
     },
     {
-        name: "FIFA 24",
+        name: "EA Sports FC 24",
         description: "La experiencia de fútbol más realista del año. Modo carrera, Ultimate Team y partidos en línea con millones de jugadores.",
         link: "https://store.steampowered.com/app/2195250/EA_SPORTS_FC_24/",
-        img: "https://picsum.photos/seed/fifa24/400/225",
+        img: "https://cdn.cloudflare.steamstatic.com/steam/apps/2195250/header.jpg",
         platforms: ["PC", "PS5", "Xbox Series X", "Switch"],
         developer: "EA Sports",
         section: "sports"
@@ -47,7 +47,7 @@ const games = [
         name: "Resident Evil Village",
         description: "Ethan Winters enfrenta una aldea llena de monstruos y secretos. Terror en primera persona con una narrativa apasionante.",
         link: "https://store.steampowered.com/app/1196590/Resident_Evil_Village/",
-        img: "https://picsum.photos/seed/revillage/400/225",
+        img: "https://cdn.cloudflare.steamstatic.com/steam/apps/1196590/header.jpg",
         platforms: ["PC", "PS4", "PS5", "Xbox"],
         developer: "Capcom",
         section: "horror"
@@ -56,25 +56,25 @@ const games = [
         name: "The Witcher 3: Wild Hunt",
         description: "RPG de mundo abierto con una narrativa magistral. Geralt de Rivia busca a su hija adoptiva en un mundo devastado por la guerra.",
         link: "https://store.steampowered.com/app/292030/The_Witcher_3_Wild_Hunt/",
-        img: "https://picsum.photos/seed/witcher3/400/225",
+        img: "https://cdn.cloudflare.steamstatic.com/steam/apps/292030/header.jpg",
         platforms: ["PC", "PS4", "PS5", "Xbox", "Switch"],
         developer: "CD Projekt Red",
         section: "rpg"
     },
     {
         name: "Counter-Strike 2",
-        description: "El shooter táctico competitivo más popular del mundo. Nuevos mapas, gráficos mejorados y la misma jugabilidad que lo hizo legendario.",
+        description: "El shooter táctico competitivo más popular del mundo. Nuevos mapas, gráficos mejorados y la misma jugabilidad legendaria.",
         link: "https://store.steampowered.com/app/730/CounterStrike_2/",
-        img: "https://picsum.photos/seed/cs2/400/225",
+        img: "https://cdn.cloudflare.steamstatic.com/steam/apps/730/header.jpg",
         platforms: ["PC"],
         developer: "Valve",
         section: "action"
     },
     {
         name: "Age of Empires IV",
-        description: "La saga de estrategia en tiempo real regresa con cuatro civilizaciones medievales y campañas históricas épicas.",
+        description: "La saga de estrategia en tiempo real regresa con civilizaciones medievales y campañas históricas épicas.",
         link: "https://store.steampowered.com/app/1466860/Age_of_Empires_IV/",
-        img: "https://picsum.photos/seed/aoe4/400/225",
+        img: "https://cdn.cloudflare.steamstatic.com/steam/apps/1466860/header.jpg",
         platforms: ["PC", "Xbox"],
         developer: "Relic Entertainment",
         section: "strategy"
@@ -83,7 +83,7 @@ const games = [
         name: "Alien: Isolation",
         description: "Sobrevivir es el único objetivo. Un xenomorfo inmortal te persigue por una estación espacial en ruinas. Terror puro y tenso.",
         link: "https://store.steampowered.com/app/214490/Alien_Isolation/",
-        img: "https://picsum.photos/seed/alien/400/225",
+        img: "https://cdn.cloudflare.steamstatic.com/steam/apps/214490/header.jpg",
         platforms: ["PC", "PS4", "Xbox One", "Switch"],
         developer: "Creative Assembly",
         section: "horror"
@@ -92,7 +92,7 @@ const games = [
         name: "NBA 2K24",
         description: "Baloncesto de élite con el modo MiCarrera más inmersivo hasta la fecha. Jugá con las estrellas de la NBA y la WNBA.",
         link: "https://store.steampowered.com/app/2328180/NBA_2K24/",
-        img: "https://picsum.photos/seed/nba2k24/400/225",
+        img: "https://cdn.cloudflare.steamstatic.com/steam/apps/2328180/header.jpg",
         platforms: ["PC", "PS5", "Xbox Series X", "Switch"],
         developer: "Visual Concepts",
         section: "sports"
